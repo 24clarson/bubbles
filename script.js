@@ -10,10 +10,10 @@ document.getElementById('auth').href = authUrl;
 const params = new URLSearchParams(window.location.search);
 const authorizationCode = params.get('code');
 
-if (authorizationCode) {
-    console.log('Authorization Code:', authorizationCode);
+// if (authorizationCode) {
+//     console.log('Authorization Code:', authorizationCode);
 
-    // Exchange the authorization code for an access token
-    // fetchAccessToken(authorizationCode);
-}
+//     // Exchange the authorization code for an access token
+//     // fetchAccessToken(authorizationCode);
+// }
 
